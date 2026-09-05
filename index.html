@@ -6,36 +6,46 @@
     <title>Weather Site</title>
 </head>
 <body>
-       <ul style="color: blue">
-    <li><a href="#Breaking_Heading">Home</a></li>
-    <li><a href="about.html">About us</a></li>
-    <li><a href="products.html">Products and Services</a></li>
-    <li><a href="contact.html">Contact us</a></li>
-</ul>
+<!-- Header Section with Navigation -->
+<header>
+   <nav>
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+  </nav>
+</header>
 
-<img src="./images/image-1.jpg"  alt="Weather icon" width="300" height="300"/>
+    <!-- Main Content Area -->
+    <main>
+        <section>
+            <img src="./images/image-1.jpg" alt="Weather icon" width="300" height="300">
 
+            <!-- Added missing id attribute referenced by the nav anchor -->
+            <h1 id="Breaking_Heading">[Breaking News] Today's Weather Forecast:</h1>
+            <h2>Johannesburg Weather Recently</h2>
 
-   <h1>[Breaking News] Today's Weather Forecast:</h1>
-   <h3>Johannesburg Weather Recently</h3>
+            <p>
+                <strong>Johannesburg</strong> has experienced a <em>rare, intense cold snap</em> driven by a stationary <br>
+                cut-off low pressure system. This severe weather brought freezing temperatures, <br>
+                strong gusty winds, and even reports of light sleet or snow pellets to parts of <br>
+                the city and wider Gauteng region.
+            </p>
+        </section>
 
-   <p>
-    <strong>Johannesburg</strong> has experienced a <em>rare, intense cold snap</em> driven by a stationary <br>
-     cut-off low pressure system. This severe weather brought freezing temperatures, <br>
-      strong gusty winds, and even reports of light sleet or snow pellets to parts of <br>
-       the city and wider Gauteng region.</p>
+        <section class="card">
+            <h3>Starter plan</h3>
+            <p>Good for small projects.</p>
+            <p>Total: <span class="price">R 199</span></p>
+        </section>
+    </main>
 
-        <p>Total: <span class="price">R 199</span></p>
-        <div class="card">
-        <h3>Starter plan</h3>
-        <p>Good for small projects.</p>
-        </div>
-
-
-       <footer>
-       <p>Contact us here:</p>
-       </footer>
-
+    <!-- Footer Section -->
+    <footer>
+        <p>Contact us here: <a href="mailto:info@weathersite.com">info@weathersite.com</a></p>
+    </footer>
 
 </body>
 </html> 
