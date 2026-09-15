@@ -3,54 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Weather Site</title>
-    <link rel="stylesheet" href="style.css">
-    <a href="#">Hover over me</a>
+    <title>Home - Weather Site</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-<!-- Header Section with Navigation -->
-<header>
-   <nav>
-    <ul>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="services.html">Services</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
-        <li><a href="contact.html">Contact</a></li>
-    </ul>
-  </nav>
-</header>
+<body class="body">
 
-    <!-- Main Content Area -->
+    <header class="site-header">
+        <div class="logo">
+            <a href="index.html">Weather Site</a>
+        </div>
+        <nav class="main-navigation">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>S
+        </nav>
+    </header>
+
     <main>
-        <section>
-          
-            <div class="box">
-            <img src="./images/image-1.jpg" alt="Weather icon" width="300" height="300">
-            </div>
-        
-            <!-- Added missing id attribute referenced by the nav anchor -->
-            <h1 id="Breaking_Heading">[Breaking News] Today's Weather Forecast:</h1>
+        <section class="report1">
+            <img class="main_img" src="./images/image-1.jpg" alt="Weather icon" width="300" height="300">
+            
+            <h1 id="Breaking_Heading">[Breaking News] Today's Weather Forecast</h1>
             <h2>Johannesburg Weather Recently</h2>
 
-            <p>
-                <strong>Johannesburg</strong> has experienced a <em>rare, intense cold snap</em> driven by a stationary <br>
-                cut-off low pressure system. This severe weather brought freezing temperatures, <br>
-                strong gusty winds, and even reports of light sleet or snow pellets to parts of <br>
-                the city and wider Gauteng region.
-            </p>
-        </section>
-
-        <section class="card">
-            <h3>Starter plan</h3>
-            <p>Good for small projects.</p>
-            <p>Total: <span class="price">R 199</span></p>
+            <div class="multi">
+                <p>
+                    <strong>Johannesburg</strong> has experienced a <em>rare, intense cold snap</em> driven by a stationary 
+                    cut-off low pressure system. This severe weather brought freezing temperatures, 
+                    strong gusty winds, and even reports of light sleet or snow pellets to parts of 
+                    the city and wider Gauteng region.
+                </p>
+                <p>
+                    Local meteorologists advise residents to take precautions against low overnight temperatures and keep emergency contact details handy during severe weather warnings.
+                </p>
+            </div>
+            <div class="box">
+                Animated Weather Map
+            </div>
+            <div class="box2">
+                Another Animated Box
+            </div>
         </section>
     </main>
 
-    <!-- Footer Section -->
     <footer>
         <p>Contact us here: <a href="mailto:info@weathersite.com">info@weathersite.com</a></p>
     </footer>
 
 </body>
-</html> 
+</html>

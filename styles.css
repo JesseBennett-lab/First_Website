@@ -1,0 +1,107 @@
+/* Google Font matching lecture slides */
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap');
+
+body {
+    background-color: #dcead5; /* Light green slide background */
+    font-family: 'Roboto Condensed', sans-serif;
+    color: #2b4c27;
+    margin: 20px;
+}
+
+/* Header & Logo */
+header {
+    margin-bottom: 10px;
+}
+
+.logo img {
+    width: 80px;
+    height: auto;
+}
+
+.download-link {
+    display: block;
+    margin: 10px 0 20px 0;
+    color: #0e8938;
+    font-size: 14px;
+}
+
+/* Main Dotted Green Report Box */
+.report1 {
+    border: 3px dotted #5c8d55;
+    background-color: #dcead5;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-radius: 4px;
+}
+
+.report1 h1 {
+    font-size: 24px;
+    color: #2b4c27;
+    margin-bottom: 15px;
+}
+
+.report1 h2 {
+    font-size: 18px;
+    color: #2b4c27;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+.report1 p {
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.network-tag {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+/* Yellow Animated Box */
+.animated-box {
+    width: 160px;
+    height: 140px;
+    background-color: #e6df15; /* Slide yellow */
+    padding: 10px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 20px;
+}
+
+/* Footer Styling */
+footer {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+footer a {
+    color: #2b4c27;
+}
+
+.box{
+    background-color: #e6df15;
+    padding: 10px;
+    width: 160px;
+    height: 140px;
+    margin: 10px;
+    transition: transform 0.5s ease;
+}
+
+.box:hover {
+    transform: scale(1.5) rotate(45deg);
+}
+
+.box2{
+    background-color:lightpink;
+    padding: 10px;
+    width: 160px;
+    height: 140px;
+    margin: 10px;
+    transition: transform 0.5s ease;
+}
+
+.box2:hover {
+    transform: scale(1.5) rotate(45deg);
+}
